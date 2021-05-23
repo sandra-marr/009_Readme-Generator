@@ -23,6 +23,8 @@ To use this application, please ensure that node.js and npm are installed and re
 To run this application, enter "node index.js" in the terminal and begin to answer the prompts. Any section that is not needed will be excluded from the table of contents and the readme file. To ensure that unwanted sections are not included, leave the associated questions blank. For example, is there are no contributors to list, skip that prompt by leaving the response blank and hitting enter. The readme file is created with a file name based on the user input for project name. To avoid overriding a prior file, make sure to use a different project name.
  
   ### Demo
+  Here is a demo of the application. This video can also be viewed here: https://youtu.be/uAQByAVAIbc
+  
   ![Demo](./assets/images/ReadmeGeneratorDemo.gif)
 
 ## Tools
