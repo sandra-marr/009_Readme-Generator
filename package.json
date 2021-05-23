@@ -1,0 +1,22 @@
+{
+  "name": "homework09",
+  "version": "1.0.0",
+  "description": "Readme Generator # 09 Node.js Homework: Professional README Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandra-marr/Homework09.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandra-marr/Homework09/issues"
+  },
+  "homepage": "https://github.com/sandra-marr/Homework09#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
