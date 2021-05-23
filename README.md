@@ -5,12 +5,12 @@
 * [Lessons Learned](#lessons-learned)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [Tools](#tools)
-* [License](#license)
+* [Credits](#credits)
 * [Features](#features)
 * [How to Contribute](#how-to-contribute)
 * [Tests](#tests)
+* [License](#license)
 
 ## Description 
 This is a simple readme generator application. It provides a standard structure for the markdown file and associated formatting. As a new developer and a current student, putting together a readme file is still new and challenging. This application provides prompts to guide the user through relevant content that should be included in a proper readme. 

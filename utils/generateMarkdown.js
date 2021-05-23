@@ -124,19 +124,19 @@ function generateToC (response){
   tableContents += `* [Installation](#installation)\n`;
 } if (response.usage !== "") {
   tableContents += `* [Usage](#usage)\n`;
-} if (response.collab !== ""){
-  tableContents += `* [Credits](#credits)\n`;
 } if (response.tools !== ""){
   tableContents += `* [Tools](#tools)\n`;
-} if (response.license !== ""){
-  tableContents += `* [License](#license)\n`;
+} if (response.credits !== ""){
+  tableContents += `* [Credits](#credits)\n`;
 } if (response.features !== ""){
   tableContents += `* [Features](#features)\n`;
 } if (response.contribute !== ""){
   tableContents += `* [How to Contribute](#how-to-contribute)\n`;
 } if (response.tests !== ""){
   tableContents += `* [Tests](#tests)\n`;
-};
+} if (response.license !== ""){
+  tableContents += `* [License](#license)\n`;
+} ;
 
 tableContents += `* [Questions](#questions)\n`;
 
