@@ -6,11 +6,12 @@
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-* [License](#license)
 * [Tools](#tools)
+* [License](#license)
 * [Features](#features)
 * [How to Contribute](#how-to-contribute)
 * [Tests](#tests)
+
 ## Description 
 This is a simple readme generator application. It provides a standard structure for the markdown file and associated formatting. As a new developer and a current student, putting together a readme file is still new and challenging. This application provides prompts to guide the user through relevant content that should be included in a proper readme. 
 A benefit to using this application is that it saves time for the user by building the readme and applying the relevant formatting for the user. This also allows for a standardized approach to the content.
@@ -31,7 +32,10 @@ To run this application, enter "node index.js" in the terminal and begin to answ
 <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>  <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>  <img alt="Markdown" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"/>  <img alt="jQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white"/>  <img alt="Visual Studio Code" src="https://img.shields.io/badge/VisualStudioCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>  <img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
 
 ## Credits
-Badges from GitHub user, Ileriayo Adebiyi (https://github.com/Ileriayo)
+Badges from [Ileriayo Adebiyi](https://github.com/Ileriayo)
+
+Email verification from [Amitabh Kumar](https://gist.github.com/Amitabh-K)
+
 ## Features
 When selecting the tools used, this application will add any associated badges to the readme. Future development that is expeted is to make the prompts more interactive and dependent on user responses. For any additional features that you would like, or the use of more badges and licenses, please send feedback to Sandy Marr (https://github.com/sandra-marr).  
 ## How to Contribute
@@ -48,3 +52,7 @@ Copyright 2021 Sandra Marr
   The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
   
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Questions
+
+For any questions, please contact Sandy Marr: [GitHub](https://github.com/sandra-marr) or [Email](srpeters44@gmail.com)

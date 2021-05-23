@@ -19,6 +19,22 @@ const questions = [
   name: 'github',
 },
 {
+  type: 'input',
+  message: "Please enter a valid email address.",
+  name: 'email',
+  default: () => {},
+  validate: function (email) {
+      valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+      if (valid) {
+        console.log("Great job");
+          return true;
+      } else {
+          console.log(".  Please enter a valid email")
+          return false;
+      }
+    }
+},
+{
   type: 'confirm',
   message: "Would you like a table of contents?",
   name: 'useToC',
@@ -91,12 +107,8 @@ const questions = [
 
 inquirer
   .prompt(questions)
-  .then((response) => {
-    console.log(response);
-    
+  .then((response) => {    
     const readMeContent = generateMarkdown(response)
-
-    console.log(readMeContent);
 
     const filename =`README_${response.projectTitle.toLowerCase().split(' ').join('')}.md`
 

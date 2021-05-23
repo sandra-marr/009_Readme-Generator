@@ -126,10 +126,10 @@ function generateToC (response){
   tableContents += `* [Usage](#usage)\n`;
 } if (response.collab !== ""){
   tableContents += `* [Credits](#credits)\n`;
-} if (response.license !== ""){
-  tableContents += `* [License](#license)\n`;
 } if (response.tools !== ""){
   tableContents += `* [Tools](#tools)\n`;
+} if (response.license !== ""){
+  tableContents += `* [License](#license)\n`;
 } if (response.features !== ""){
   tableContents += `* [Features](#features)\n`;
 } if (response.contribute !== ""){
@@ -209,7 +209,8 @@ var markdownContent =
 
 `# ${response.projectTitle}
 
-` + tableContents +
+` + licenseBadge + `\n` +
+ tableContents +
 `## Description 
 ${response.description}
 ${response.purpose}
@@ -262,7 +263,7 @@ Copyright ` + currentYear + ` ${response.username}
 
 ## Questions
 
-For any questions, please contact ${response.username}, https://github.com/${response.github}`;
+For any questions, please contact ${response.username}: [GitHub](https://github.com/${response.github}) or [Email](${response.email})`;
 
 return markdownContent;
 }
