@@ -14,6 +14,11 @@ const questions = [
   name: 'username',
 },
 {
+  type: 'input',
+  message: "What is your GitHub handle? (this can be found on your profile page under your display name)",
+  name: 'github',
+},
+{
   type: 'confirm',
   message: "Would you like a table of contents?",
   name: 'useToC',

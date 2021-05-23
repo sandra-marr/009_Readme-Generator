@@ -137,6 +137,9 @@ function generateToC (response){
 } if (response.tests !== ""){
   tableContents += `* [Tests](#tests)\n`;
 };
+
+tableContents += `* [Questions](#questions)\n`;
+
 return tableContents;
 }
 
@@ -254,7 +257,12 @@ if (response.tests != "") {
 markdownContent += licenseH + licenseBadge + 
 `
 Copyright ` + currentYear + ` ${response.username}
-` + licenseInfo;
+` + licenseInfo + 
+`
+
+## Questions
+
+For any questions, please contact ${response.username}, https://github.com/${response.github}`;
 
 return markdownContent;
 }
