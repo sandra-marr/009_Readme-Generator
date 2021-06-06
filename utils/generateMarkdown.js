@@ -28,6 +28,14 @@ var badgesArr = [
      img: '<img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>'
    },
    {
+    type: "UIKit",
+    img: ' <img alt="UIKit" src="https://img.shields.io/badge/uikit-%233399ff.svg?style=for-the-badge&logo=uikit&logoColor=white"/>'
+    },  
+   {
+    type: "Jest",
+    img: '<img alt="Jest" src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white"/>'
+    },
+   {
      type: "VSCode",
      img: '<img alt="Visual Studio Code" src="https://img.shields.io/badge/VisualStudioCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>'
    },
