@@ -47,6 +47,14 @@ var badgesArr = [
     type: "Heroku",
     img: '<img alt="Heroku" src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"/>'
    },
+   {
+    type: "MySQL",
+    img: '<img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/>'
+   },
+   {
+    type: "npm-inquirer",
+    img: ' <img alt="npm-inquirer" src="https://img.shields.io/badge/npm:inquirer-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
+   },   
 ]
 
 var currentYear = new Date().getFullYear()
