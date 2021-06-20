@@ -44,7 +44,7 @@ var badgesArr = [
      img: '<img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>'
    },
    {
-    type: "GitHub",
+    type: "Heroku",
     img: '<img alt="Heroku" src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"/>'
    },
 ]
