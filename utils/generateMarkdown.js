@@ -55,6 +55,18 @@ var badgesArr = [
     type: "npm-inquirer",
     img: ' <img alt="npm-inquirer" src="https://img.shields.io/badge/npm:inquirer-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
    },   
+   {
+    type: "npm-express",
+    img: '<img alt="npm-epxress" src="https://img.shields.io/badge/npm:express-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
+   },
+   {
+    type: "npm-sequelize",
+    img: '<img alt="npm-sequelize" src="https://img.shields.io/badge/npm:sequelize-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
+   },   
+   {
+    type: "Insomnia",
+    img: '<img alt="Insomnia" src="https://img.shields.io/badge/npm:sequelize-%235849BE.svg?style=for-the-badge&logo=insomnia&logoColor=white"/>'
+   },  
 ]
 
 var currentYear = new Date().getFullYear()
@@ -189,32 +201,56 @@ var badgesRaw = [];
 var badgesDisplay;
 
 function generateBadges (response){
-  if(response.tools.includes("HTML5")) {
+  if(response.tools.includes("Node.js")) {
     badgesRaw.push(badgesArr[0].img);
   }
-  if(response.tools.includes("CSS3")) {
+  if(response.tools.includes("JavaScript")) {
     badgesRaw.push(badgesArr[1].img);
   }
-  if(response.tools.includes("JavaScript")) {
+  if(response.tools.includes("HTML5")) {
     badgesRaw.push(badgesArr[2].img);
   }
-  if(response.tools.includes("Node.js")) {
+  if(response.tools.includes("CSS3")) {
     badgesRaw.push(badgesArr[3].img);
   }
-  if(response.tools.includes("jQuery")) {
+  if(response.tools.includes("Markdown")) {
     badgesRaw.push(badgesArr[4].img);
   }
-  if(response.tools.includes("Markdown")) {
+  if(response.tools.includes("jQuery")) {
     badgesRaw.push(badgesArr[5].img);
   }
   if(response.tools.includes("Bootstrap")) {
     badgesRaw.push(badgesArr[6].img);
   }
-  if(response.tools.includes("VSCode")) {
+  if(response.tools.includes("UIKit")) {
     badgesRaw.push(badgesArr[7].img);
   }
-  if(response.tools.includes("GitHub")) {
+  if(response.tools.includes("Jest")) {
     badgesRaw.push(badgesArr[8].img);
+  }
+  if(response.tools.includes("VSCode")) {
+    badgesRaw.push(badgesArr[9].img);
+  }
+  if(response.tools.includes("GitHub")) {
+    badgesRaw.push(badgesArr[10].img);
+  }
+  if(response.tools.includes("Heroku")) {
+    badgesRaw.push(badgesArr[11].img);
+  }
+  if(response.tools.includes("MySQL")) {
+    badgesRaw.push(badgesArr[12].img);
+  }
+  if(response.tools.includes("npm-inquirer")) {
+    badgesRaw.push(badgesArr[13].img);
+  }
+  if(response.tools.includes("npm-express")) {
+    badgesRaw.push(badgesArr[14].img);
+  }
+  if(response.tools.includes("npm-sequelize")) {
+    badgesRaw.push(badgesArr[15].img);
+  }
+  if(response.tools.includes("Insomnia")) {
+    badgesRaw.push(badgesArr[16].img);
   }
 return badgesDisplay = badgesRaw.join("  ");
 }
