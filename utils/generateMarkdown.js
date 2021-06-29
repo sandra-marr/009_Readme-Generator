@@ -53,35 +53,35 @@ var badgesArr = [
    },
    {
     type: "npm-inquirer",
-    img: ' <img alt="npm-inquirer" src="https://img.shields.io/badge/npm:inquirer-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
+    img: ' <img alt="npm-inquirer" src="https://img.shields.io/badge/npm:-inquirer-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
    },   
    {
     type: "npm-express",
-    img: '<img alt="npm-epxress" src="https://img.shields.io/badge/npm:express-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
+    img: '<img alt="npm-epxress" src="https://img.shields.io/badge/npm:-express-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
    },
    {
     type: "npm-sequelize",
-    img: '<img alt="npm-sequelize" src="https://img.shields.io/badge/npm:sequelize-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
+    img: '<img alt="npm-sequelize" src="https://img.shields.io/badge/npm:-sequelize-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
    },   
    {
     type: "Insomnia",
-    img: '<img alt="Insomnia" src="https://img.shields.io/badge/npm:sequelize-%235849BE.svg?style=for-the-badge&logo=insomnia&logoColor=white"/>'
+    img: '<img alt="Insomnia" src="https://img.shields.io/badge/Insomnia-%235849BE.svg?style=for-the-badge&logo=insomnia&logoColor=white"/>'
    },  
    {
     type: "npm-express-session",
-    img: '<img alt="npm-express-session" src="https://img.shields.io/badge/npm:express-session-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
+    img: '<img alt="npm-express-session" src="https://img.shields.io/badge/npm:-express session-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
    }, 
    {
      type: "npm-express-handlebars",
-     img: '<img alt="npm-express-handlbars" src="https://img.shields.io/badge/npm:express-handlebars-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
+     img: '<img alt="npm-express-handlbars" src="https://img.shields.io/badge/npm:-express handlebars-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
    },
    {
     type: "npm-bcrpyt",
-    img: '<img alt="npm-bcrpyt" src="https://img.shields.io/badge/npm:bcrypt-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
-   }
+    img: '<img alt="npm-bcrpyt" src="https://img.shields.io/badge/npm:-bcrypt-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
+   },
    {
     type: "npm-dotenv",
-    img: '<img alt="npm-dotenv" src="https://img.shields.io/badge/npm:dotenv-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
+    img: '<img alt="npm-dotenv" src="https://img.shields.io/badge/npm:-dotenv-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
    }
 ]
 
