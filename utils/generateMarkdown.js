@@ -67,6 +67,22 @@ var badgesArr = [
     type: "Insomnia",
     img: '<img alt="Insomnia" src="https://img.shields.io/badge/npm:sequelize-%235849BE.svg?style=for-the-badge&logo=insomnia&logoColor=white"/>'
    },  
+   {
+    type: "npm-express-session",
+    img: '<img alt="npm-express-session" src="https://img.shields.io/badge/npm:express-session-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
+   }, 
+   {
+     type: "npm-express-handlebars",
+     img: '<img alt="npm-express-handlbars" src="https://img.shields.io/badge/npm:express-handlebars-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
+   },
+   {
+    type: "npm-bcrpyt",
+    img: '<img alt="npm-bcrpyt" src="https://img.shields.io/badge/npm:bcrypt-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
+   }
+   {
+    type: "npm-dotenv",
+    img: '<img alt="npm-dotenv" src="https://img.shields.io/badge/npm:dotenv-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
+   }
 ]
 
 var currentYear = new Date().getFullYear()
@@ -240,17 +256,29 @@ function generateBadges (response){
   if(response.tools.includes("MySQL")) {
     badgesRaw.push(badgesArr[12].img);
   }
-  if(response.tools.includes("npm-inquirer")) {
+  if(response.tools.includes("inquirer")) {
     badgesRaw.push(badgesArr[13].img);
   }
-  if(response.tools.includes("npm-express")) {
+  if(response.tools.includes("express")) {
     badgesRaw.push(badgesArr[14].img);
   }
-  if(response.tools.includes("npm-sequelize")) {
+  if(response.tools.includes("sequelize")) {
     badgesRaw.push(badgesArr[15].img);
   }
   if(response.tools.includes("Insomnia")) {
     badgesRaw.push(badgesArr[16].img);
+  }
+  if(response.tools.includes("express-session")) {
+    badgesRaw.push(badgesArr[17].img);
+  }
+  if(response.tools.includes("express-handlebars")) {
+    badgesRaw.push(badgesArr[18].img);
+  }
+  if(response.tools.includes("bcrpyt")) {
+    badgesRaw.push(badgesArr[19].img);
+  }
+  if(response.tools.includes("dotenv")) {
+    badgesRaw.push(badgesArr[20].img);
   }
 return badgesDisplay = badgesRaw.join("  ");
 }
