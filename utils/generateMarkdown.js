@@ -180,10 +180,10 @@ function generateToC (response){
   tableContents += `* [Installation](#installation)\n`;
 } if (response.usage !== "") {
   tableContents += `* [Usage](#usage)\n`;
-} if (response.tools !== ""){
-  tableContents += `* [Tools](#tools)\n`;
 } if (response.credits !== ""){
   tableContents += `* [Credits](#credits)\n`;
+} if (response.tools !== ""){
+  tableContents += `* [Tools](#tools)\n`;
 } if (response.features !== ""){
   tableContents += `* [Features](#features)\n`;
 } if (response.contribute !== ""){
