@@ -82,6 +82,14 @@ var badgesArr = [
    {
     type: "npm-dotenv",
     img: '<img alt="npm-dotenv" src="https://img.shields.io/badge/npm:-dotenv-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
+   },
+   {
+    type: "MongoDB",
+    img: '<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)"/>'
+   }
+   {
+    type: "mongoose",
+    img: '<img alt="npm-mongoose" src="https://img.shields.io/badge/npm:-mongoose-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
    }
 ]
 
@@ -279,6 +287,12 @@ function generateBadges (response){
   }
   if(response.tools.includes("dotenv")) {
     badgesRaw.push(badgesArr[20].img);
+  }
+  if(response.tools.includes("MongoDB")) {
+    badgesRaw.push(badgesArr[21].img);
+  }
+  if(response.tools.includes("mongoose")) {
+    badgesRaw.push(badgesArr[22].img);
   }
 return badgesDisplay = badgesRaw.join("  ");
 }
