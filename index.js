@@ -77,7 +77,7 @@ const questions = [
 {
   type: 'checkbox',
   message: "Please select tools used.",
-  choices: ["HTML5", "CSS3", "JavaScript", "Node.js", "jQuery", "Markdown", "Bootstrap", "UIKit", "Jest", "VSCode", "GitHub", "Heroku", "MySQL", "inquirer", "express", "sequelize", "Insomnia", "express-session", "express-handlebars", "bcrpyt", "dotenv", "MongoDB", "mongoose"],
+  choices: ["HTML5", "CSS3", "JavaScript", "Node.js", "jQuery", "Markdown", "Bootstrap", "UIKit", "Jest", "VSCode", "GitHub", "Heroku", "MySQL", "inquirer", "Express.js", "sequelize", "Insomnia", "express-session", "Handlebars", "bcrpyt", "dotenv", "MongoDB", "mongoose", "MongoDB Atlas", "JawsDB", "NPM", "Moment.js", "webpack", "IndexedDB"],
   name: 'tools',
 },
 {
