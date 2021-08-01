@@ -86,7 +86,7 @@ var badgesArr = [
    {
     type: "MongoDB",
     img: '<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)"/>'
-   }
+   },
    {
     type: "mongoose",
     img: '<img alt="npm-mongoose" src="https://img.shields.io/badge/npm:-mongoose-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>'
