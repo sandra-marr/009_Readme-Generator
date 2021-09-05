@@ -127,6 +127,10 @@ var badgesArr = [
     type: "React Bootstrap",
     img: '<img alt="react-bootstrap" src="https://img.shields.io/badge/React_Bootstrap-%2320232a?style=for-the-badge&logo=react-bootstrap&logoColor=white">'
    },
+   {
+     type: "Apollo Server and GraphQL",
+     img: '<img alt="apollo-graphql" src="https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql">'
+   }
 ]
 
 
@@ -349,15 +353,18 @@ function generateBadges (response){
   }
   if(response.tools.includes("IndexedDB")) {
     badgesRaw.push(badgesArr[28].img);
-  },
+  }
   if(response.tools.includes("React")) {
     badgesRaw.push(badgesArr[29].img);
-  },
+  }
   if(response.tools.includes("React-Router")) {
     badgesRaw.push(badgesArr[30].img);
-  },
+  }
   if(response.tools.includes("React-Bootstrap")) {
     badgesRaw.push(badgesArr[31].img);
+  }
+  if(response.tools.includes("Apollo Server and GraphQL")) {
+    badgesRaw.push(badgesArr[32].img);
   }
 return badgesDisplay = badgesRaw.join("  ");
 }
@@ -394,7 +401,7 @@ if (response.usage != "") {
 } 
 
 if (response.includeImage) {
-  markdownContent += `### Demo
+  markdownContent += `## Demo
   ![Demo](${response.includeImage})\n`; 
 } 
 
